@@ -5,34 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mi Página Web</title>
 <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f4f4f9;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-main {
-    padding: 20px;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #f4f4f9;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+    main {
+        padding: 20px;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    img {
+        width: 150px; /* Ancho de 150 píxeles */
+        height: 150px; /* Alto de 150 píxeles */
+        object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+        display: block; /* Asegura que la imagen se centre correctamente */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+    .poema {
+        text-align: center; /* Centra el texto del poema */
+        max-width: 800px; /* Ancho máximo para mantener una buena legibilidad */
+        margin: 20px auto; /* Márgenes automáticos para centrar el contenedor */
+        padding: 10px; /* Espacio interno para evitar que el texto toque los bordes */
+        overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+        height: 300px; /* Altura fija para el contenedor del poema */
+    
+    }
+    .poema p {
+        margin: 0 0 10px 0; 
+    }
 </style>
 </head>
 <body>
@@ -40,12 +54,28 @@ img {
     <h1>Bienvenido a Mi Página Web</h1>
 </header>
 <main>
-    <h2>Sobre mí</h2>
-    <p>Esta es una página de ejemplo creada para demostrar cómo alojar una página web en GitHub Pages.</p>
+    <h2>GLENDA MERCEDES LÓPEZ SÁENZ</h2>
     <img src="images/mi-imagen.jpg" alt="CARNET" />
+   
+    <div class="poema">
+        <p>En la vasta red de bytes y sueños,<br>
+        donde el código fluye como ríos de luz,<br>
+        la ingeniería en sistemas canta su himno,<br>
+        tejido con hilos de lógica y virtud.</p>
+        
+        <p>Como poetas del digital paisaje,<br>
+        crean arquitecturas de innovación,<br>
+        y en cada línea de código y mensaje,<br>
+        forjan puentes entre ideas y acción.</p>
+        
+        <p>Con destreza y arte en marketing digital,<br>
+        dan vida a estrategias de impacto y señal,<br>
+        en este universo de sistemas y red,<br>
+        donde el futuro se escribe con sueños de tecnología y fe.</p>
+    </div>
 </main>
 <footer>
-    <p>© 2024 Mi Nombre</p>
+    <p>© 2024 Glenda Mercedes López Sáenz</p>
 </footer>
 </body>
 </html>
